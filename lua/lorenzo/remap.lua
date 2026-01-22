@@ -6,3 +6,7 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
+vim.keymap.set("n", "<leader>md", ":MarkdownPreview<CR>", {silent = true})
+
+
+
