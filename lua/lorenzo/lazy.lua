@@ -15,6 +15,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
+    { "Mofiqul/dracula.nvim", name = "dracula", priority = 1000,},
 	{ "rose-pine/neovim", name = "rose-pine", priority=1000},
 	{
 		'nvim-telescope/telescope.nvim', 
