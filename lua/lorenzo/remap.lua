@@ -8,5 +8,8 @@ vim.keymap.set("n", "<leader>Y", [["+Y]])
 
 vim.keymap.set("n", "<leader>md", ":MarkdownPreview<CR>", {silent = true})
 
+vim.g.vimtex_view_method = "general"         -- visor PDF
+vim.g.vimtex_compiler_method = "latexmk"  -- compilador automático
+
 
 
