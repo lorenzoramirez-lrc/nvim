@@ -10,6 +10,6 @@ require'nvim-treesitter.configs'.setup {
     additional_vim_regex_highlighting = { 'markdown' },
   },
   indent = {
-    enable = true,
+    enable = false,
   },
 }
